@@ -17,12 +17,19 @@ sudo adduser app
 
 sudo usermod -a -G sudo app
 ```
-install ruby on app user:
+install ruby:
 ```
 sudo apt install ruby-full
-missing add to add user
 
 ```
+make ruby available to app user:
+```
+su app *will ask app user password
+cd /etc/
+sudo nano ~/.bashrc
+[[ -s /usr/local/rvm/scripts/rvm ]] && source /usr/local/rvm/scripts/rvm  *** on the end of the file
+```
+
 docker and docker-compose and dependencies installation script
 just paste it in terminal ;) 
 
