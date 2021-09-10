@@ -1,6 +1,6 @@
 # Deploy opendax peatio exchange in bash scripts
 
-# installation by poseidon( telegram id: pos3idon ) https://coincooper.com
+# installation
 
 # ubuntu 20.04 
 
@@ -53,7 +53,7 @@ bundle
 ```sudo nano config/app.yml```
 
 and change credentials like domain and subdomain
-example: http://ex.coincooper.com
+example: http://ex.example.com
 
 after update credentials 
 ```
@@ -71,25 +71,4 @@ Email: admin@barong.io, password: 0lDHd9ufs9t@
 
 Email: john@barong.io, password: Am8icnzEI3d!
 ```
-# we have varity of customised user interface (UI) available (React, Angular & Vue based ) for sales
 
-
-# ios & android apps soon available for sales :)
-
-## we offer
-
-* docker swarm 
-* kubernetes
-* node wallet installation
-* custom blockchain development
-* pluggable coin development
-* tower admin panel development
-
-
-# please ping us in telegram for production deployment and customisations:
-```
-  @pos3idon (telegram id)
-  poseidon_j@pm.me (email)
-  website coming soon....
-```
-# Be Safe and Wear Mast :)
