@@ -20,6 +20,7 @@ sudo usermod -a -G sudo app
 install ruby on app user:
 ```
 sudo apt install ruby-full
+missing add to add user
 
 ```
 docker and docker-compose and dependencies installation script
