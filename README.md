@@ -27,7 +27,8 @@ make ruby available to app user:
 su app *will ask app user password
 cd /etc/
 sudo nano ~/.bashrc
-[[ -s /usr/local/rvm/scripts/rvm ]] && source /usr/local/rvm/scripts/rvm  *** on the end of the file
+[[ -s /usr/local/rvm/scripts/rvm ]] && source /usr/local/rvm/scripts/rvm  *** on the end of the file and exit and save
+reboot
 ```
 
 docker and docker-compose and dependencies installation script
