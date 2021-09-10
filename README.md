@@ -24,7 +24,7 @@ sudo apt install ruby-full
 ```
 make ruby available to app user:
 ```
-su app *will ask app user password
+su - app *will ask app user password
 cd /etc/
 sudo nano ~/.bashrc
 [[ -s /usr/local/rvm/scripts/rvm ]] && source /usr/local/rvm/scripts/rvm  *** copy and past on the end of the file, save and exit
